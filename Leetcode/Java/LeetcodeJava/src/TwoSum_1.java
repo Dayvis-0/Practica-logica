@@ -8,8 +8,9 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0,1]*/
 public class TwoSum_1 {
     public static int[] twoSum(int[] nums, int target) {
         
-        return;
-     }
+        
+    }
+    
     public static void main(String[] args) {
         System.out.println("");
         System.out.println("String");
