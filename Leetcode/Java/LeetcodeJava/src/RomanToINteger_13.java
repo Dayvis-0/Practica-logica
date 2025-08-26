@@ -35,6 +35,9 @@ Input: s = "MCMXCIV"
 Output: 1994
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4*/
 public class RomanToINteger_13 {
+    public static int romanToInteger(String s) {
+        return 0;
+    }
     public static void main(String[] args) {
         
     }
