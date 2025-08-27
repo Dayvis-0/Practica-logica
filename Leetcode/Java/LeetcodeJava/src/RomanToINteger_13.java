@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /*Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 Symbol      Value
 I             1
@@ -36,6 +38,23 @@ Output: 1994
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4*/
 public class RomanToINteger_13 {
     public static int romanToInteger(String s) {
+        HashMap<String, Integer>  sRomaValue = Map.of(
+            "I", 1,
+            "V", 5,
+            "X", 10,
+            "L", 50,
+            "C", 100,
+            "D", 500,
+            "M", 1000
+        );
+        int resu = s.charAt(0);
+        
+        for (int i=0; i<s.length() - 1; i++) {
+            if (s.charAt(i) >= s.charAt(i+1)) {
+               resu = resu + s.charAt(i+1).
+            } 
+        }
+        
         return 0;
     }
     public static void main(String[] args) {
